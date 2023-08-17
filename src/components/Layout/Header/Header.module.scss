@@ -1,0 +1,29 @@
+header{
+    background-color: #151317;
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 16px 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo{
+            color: #FFF;
+            font-weight: 700;
+            font-size: 56px;
+        }
+        .logoutBtn{
+            background: red;
+            color: #FFF;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            font-weight: 600;
+            border-radius: 10px;
+            transition: 0.3s ease background;
+            &:hover{
+                background: rgb(117, 6, 6);
+            }
+        }
+    }
+}

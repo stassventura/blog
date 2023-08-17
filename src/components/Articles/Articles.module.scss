@@ -1,0 +1,57 @@
+section{
+    margin-top: 80px;
+    .container{
+        max-width: 1090px;
+        padding: 0 10px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 35px;
+        .articleCard{
+            width: 330px;
+            height: 310px;
+            border-radius: 20px;
+            background: #1E1B20;
+            position: relative;
+            overflow: hidden;
+            .articleCardImg{
+                width: 100%;
+                img{
+                    width: 100%;
+                    height: 185px;
+                }
+            }
+            .articleCardBody{
+                padding: 0px 15px;
+
+                .articleCardTitle{
+                    color: #FFF;
+                    font-size: 24px;
+                    font-weight: 600;
+                    cursor: pointer;
+                }
+                .articleCardSubtitle{
+                    margin-top: 5px;
+                    color: #5E5E5F;
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+                .readMore{
+                    position: absolute;
+                    bottom: 15px;
+                    background: transparent;
+                    color: #5E5E5F;
+                    font-size: 16px;
+                    font-weight: 500;
+                    transition: 0.3s ease color;
+                    cursor: pointer;
+                    &:hover{
+                        color: #FFF;
+                    }
+                }
+
+            }
+            
+        }
+    }
+}
